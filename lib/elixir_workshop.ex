@@ -1,2 +1,0 @@
-defmodule ElixirWorkshop do
-end
