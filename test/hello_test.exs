@@ -5,7 +5,6 @@ defmodule HelloTest do
   import ExUnit.CaptureIO
 
   test "Hello.greet/0" do
-    IO.puts Hello.greet()
     assert capture_io(fn ->  Hello.greet() end) == "Hello, World\n"
   end
 
